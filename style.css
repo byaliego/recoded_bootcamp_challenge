@@ -1,0 +1,129 @@
+body {
+  background-color: #eee;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background:url("https://drive.google.com/uc?id=1ADdMAd8sSM1GxabjRUpJaqliyYQMxixu");
+  background-size: cover;
+  background-position: center;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin: 40px;
+  border-radius: 50%;
+}
+
+.title {
+  margin: 40px;
+  padding: 15px;
+  border: #ccc 5px;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.italic {
+  margin: 40px;
+  font-size: 24px;
+  fontstyle: italic;
+}
+
+.bootcamp {
+  padding: 20px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.bootcamp p,
+li {
+  margin: 10px;
+}
+/*
+#awesome {
+  display: none;
+}*/
+/*
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+*/
+#searchBox {
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border-color: #dda65f;
+}
+
+#searchBox::selection {
+  border-color: #3a7ddd;
+}
+
+#infoBtn,
+#searchBtn,
+#awesomeBtn {
+  background-color: #dda65f;
+  /* @TODO: add border color to match the background color */
+  color: white;
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+/* @TODO: Make the mouse curser look like a hand when you hover over the buttons (#infoBtn, #searchBtn, #awesomeBtn) 
+and add backgound and border color of #3a7ddd*/
+
+.socialIcon {
+  width: 25p;
+  margin: 0 10px;
+}
+
+.searchDiv {
+  text-align:center;
+}
+
+.awesomeDiv {
+text-align:center;
+}
+
+.infoDiv {
+text-align:center;
+}
+
+.img-sec {
+  float: left;
+  width: 75%;
+}
+
+.copy-right {
+    float: right;
+  width: 25%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a img {
+  width: 30px;
+  height: 30px;
+}
+
+.img-sec div {
+  display: inline-block;
+}
